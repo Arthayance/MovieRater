@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">MovieRater</string>
+    <string name="movie_name">Name</string>
+    <string name="description">Description</string>
+    <string name="language">Language</string>
+    <string name="date">Release Date</string>
+    <string name="activity2_name">Second Activity</string>
+</resources>

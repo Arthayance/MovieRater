@@ -29,15 +29,12 @@ class Main4Activity : AppCompatActivity() {
 
     override fun onContextItemSelected(item: MenuItem?): Boolean {
         if (item?.itemId == 1001) {
-            finish()
+            val intent = Intent(this, MainActivity::class.java)
+            startActivity(intent)
         }
         return super.onContextItemSelected(item)
     }
 
-    fun addMovie (v: View) {
-        val intent = Intent(this, MainActivity::class.java)
-        startActivity(intent)
 
-    }
 
 }
